@@ -114,7 +114,48 @@ body{
     border-radius: 50%;
 }
 
-/* .home .conteiner-foto img{
+.home .conteiner-foto img{
     width: 100%;
-    boder
+    border-radius: 50%;
+}
+
+.home .foto-sombra-interna{
+    background-color: linear-gradient(to right, palevioletred, red, #282828, black);
+}
+
+.projetos{
+    background-color: red;
+    padding: 70px 0 70px;
+}
+
+.projetos .titulo{
+    text-align: center;
+    padding: 60px 0;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.projetos .container-projetos{
+    background-color: red;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.projetos .projetos{
+    max-width: 260px;
+    max-height: 500px;
+    position: relative;
+    display: none;
+}
+
+.projetos .projetos-ativos{
+    display: block;
+}
+
+.projetos .projetos img{
+    height: 100%;
 }
