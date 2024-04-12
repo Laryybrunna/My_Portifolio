@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UT-8">
+<meta name="viwerpoint" content="width=device-width,initial-scale=1.0">
+<title>Larissa Bruna Front end</title>
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+
+</head>
+</body>
+<hearder> class ="cabecalho">
+    <a href="#">
+        <h1 class="logo">LB</h1>
+
+
+        <Nav class="menu">
+            <ul>
+                <Li><a href="#projetos">meus projetos</a>
+                </Li>
+            </ul>
+        </Nav>
+    </a>
+</hearder>
+<section> class="home">
+    <div class="informacoes">
+        <h1>Olá, sou Larissa !!!</h1>
+        <p>uma desenvolvedora, em desenvolvimento 😆 </p>
+        <p>Estou sempre me desafiando, e em busca de feedbacks na comunidade de programação...alem de sempre buscar mais
+            conhecimentos, tento ajudar a todos que precisam desse serviço.</p>
+        <p>Também sou muito fã de jogos, animes, séries, filmes e músicas🖤.</p>
+
+        <ul  class="redes-sociais">
+            <li>
+                <a href="https//www.LinkedIn.com/in/nomedousuario/" title="Ir para o LinkedIn " target="_blank">
+                    <i class="fab fa-LinkedIn"></i>
+                </a>
+            </li>
+            <a href="https//wa.me/55719999999" title="enviar mensagem no WhatsApp." target="_blank">
+                <i class="fab fa-WhatsApp "></i>
+            </a>
+            <li>
+            <li>
+                <a href="https//:github.com/laryybrunna/" title="Ir para o github" target="_blank">
+                    <i class="Fab fa-github"></i>
+                </a>
+
+            </li>
+
+            <li>
+                <a href="http//www.Instagram.com/lariissa_brunna/" title="Ir para o Instagram" target="_blank">
+                    <i class="Fab fa-Instagram"></i>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="container-foto">
+        <div class="foto sombra-interna">
+            <img src="./src/imagens/foto-perfil.png" alt="foto de perfil">
+        </div>
+
+    ></div>
+</section>
+<section class="projetos" id="projetos">
+    <h2 class="titulo"> meus projetos</h2>
+
+    <div class="container-projetos">
+        <div class="projeto ativo">
+            <a href="https//github.com/laryybrunna/portif-lio[Github]"
+            target="_blank">
+            <img src="src/imagens/" alt="projeto 1:(landing page)">
+            <h3> Projeto landig page 1 </h3>
+
+            <div class="informacoes-projetos" >
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>📎Ver no Github pages</p>
+        </div>
+        
+        </a>
+
+        
+        </div>
+        <div class="projeto ativo">
+          <a href="https://github.com/devemdobro/projeto-listagem-pokemon" target="_blank">
+            <img src="./src/imagens/projeto-listagem-pokemon.png" alt="Projeto listagem de pokemons" />
+            <h3>Projeto 2</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+
+    </div>
+
+    <button class="btn-mostrar-projetos">mostrar mais</button>
+
+</section>
+</body>
+
+</html>
