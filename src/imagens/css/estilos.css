@@ -4,10 +4,11 @@ html{
 }
 
 body{
-    background-color:#282828;
     font-family: "poppins","sans-serif";
     margin: 0 auto;
     max-width: 1120px;
+    background: linear-gradient(150deg #000 red);
+    background-size: 120% 120%;
 }
 
 .cabecalho{
@@ -111,6 +112,8 @@ body{
 
 .home .foto-sombra-interna{
     background-color: linear-gradient(to right, palevioletred, red, #282828, black);
+        background-size: 180% 180%;
+          animation: gradient-animation 5s ease infinite;
 }
 
 .projetos{
@@ -200,4 +203,18 @@ body{
 
 .projetos .btn-mostrar-projetos.remover{
     display: none;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
